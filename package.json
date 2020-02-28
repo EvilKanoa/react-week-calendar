@@ -1,6 +1,6 @@
 {
   "name": "@evilkanoa/react-month-calendar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Barebones and easy to use monthly calendar for any React page!",
   "main": "lib/ReactMonthCalendar.js",
   "private": false,

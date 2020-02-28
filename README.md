@@ -10,7 +10,9 @@ ReactMonthCalendar is a React-based web component designed to get you up and run
 
 ## Installation
 To make use of the ReactMonthCalendar component, you need an existing React application. To install the ReactMonthCalendar component, ensure you are using react@16+ and then run the one of the following commands:
+
 for npm: `npm install @evilkanoa/react-month-calendar --save-dev`
+
 for yarn: `yarn add @evilkanoa/react-month-calendar --dev`
 
 ## Usage
