@@ -1,6 +1,6 @@
 {
   "name": "@evilkanoa/react-month-calendar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Barebones and easy to use monthly calendar for any React page!",
   "main": "lib/ReactMonthCalendar.js",
   "private": false,
@@ -11,8 +11,8 @@
     "start": "start-storybook",
     "build": "webpack",
     "lint": "prettier --write {*.{js,jsx},{src,.storybook}/*.{js,jsx}}",
-    "preversion": "npm lint && npm test && npm build",
-    "postversion": "npm publish",
+    "preversion": "yarn lint && yarn test && yarn build",
+    "postversion": "yarn publish",
     "postpublish": "git push origin --all; git push origin --tags"
   },
   "repository": {
@@ -24,7 +24,9 @@
     "yarn": ">=1.19"
   },
   "jest": {
-    "setupFilesAfterEnv": ["jest-enzyme"],
+    "setupFilesAfterEnv": [
+      "jest-enzyme"
+    ],
     "testEnvironment": "enzyme"
   },
   "prettier": {
