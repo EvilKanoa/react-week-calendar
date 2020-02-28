@@ -2,17 +2,64 @@
   "name": "@evilkanoa/react-month-calendar",
   "version": "0.0.1",
   "description": "Barebones and easy to use monthly calendar for any React page!",
-  "main": "index.js",
+  "main": "lib/ReactMonthCalendar.js",
   "private": false,
+  "author": "evilkanoa",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "echo \"Error: no start specified\" && exit 1",
-    "build": "echo \"Error: no build specified\" && exit 1"
+    "test": "jest",
+    "start": "start-storybook",
+    "build": "webpack",
+    "lint": "prettier --write {*.{js,jsx},{src,.storybook}/*.{js,jsx}}",
+    "preversion": "npm lint && npm test && npm build",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Evilkanoa/react-month-calendar"
   },
-  "author": "evilkanoa",
-  "license": "MIT"
+  "engines": {
+    "node": "12.x",
+    "yarn": ">=1.19"
+  },
+  "jest": {
+    "setupFilesAfterEnv": ["jest-enzyme"],
+    "testEnvironment": "enzyme"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-knobs": "^5.3.14",
+    "@storybook/addon-storysource": "^5.3.14",
+    "@storybook/addon-viewport": "^5.3.14",
+    "@storybook/react": "^5.3.14",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.6.4",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^25.1.0",
+    "jest-environment-enzyme": "^7.1.2",
+    "jest-enzyme": "^7.1.2",
+    "path": "^0.12.7",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "peerDependencies": {
+    "react": "^16",
+    "react-dom": "^16"
+  }
 }
