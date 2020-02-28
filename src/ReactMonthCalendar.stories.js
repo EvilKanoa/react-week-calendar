@@ -1,7 +1,7 @@
 import React from 'react';
 import { text } from '@storybook/addon-knobs';
 
-import ReactMonthCalendar from './ReactMonthCalendar';
+import ReactMonthCalendar from './index';
 
 export default { component: ReactMonthCalendar, title: 'ReactMonthCalendar' };
 

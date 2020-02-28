@@ -2,6 +2,9 @@
 import ReactMonthCalendar from './ReactMonthCalendar.jsx';
 import propTypes from './ReactMonthCalendar.props';
 
+// import styling for component
+import './ReactMonthCalendar.scss';
+
 // attach any extra data to the component
 ReactMonthCalendar.propTypes = propTypes;
 

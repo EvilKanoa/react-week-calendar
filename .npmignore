@@ -1,5 +1,6 @@
 .storybook
 src
+lib/.gitkeep
 .babelrc
 .gitignore
 webpack.config.js
