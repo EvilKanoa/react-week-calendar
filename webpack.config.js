@@ -1,12 +1,11 @@
 const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: 'production',
   entry: './src/index.js',
   output: {
     path: path.resolve('lib'),
-    filename: 'ReactMonthCalendar.js',
+    filename: 'ReactWeekCalendar.js',
     libraryTarget: 'commonjs2',
   },
   module: {
@@ -19,11 +18,10 @@ module.exports = {
       {
         test: /\.(css|s[ac]ss)$/i,
         exclude: /(node_modules)/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
     ],
   },
-  plugins: [new MiniCssExtractPlugin()],
   resolve: {
     alias: {
       react: path.resolve(__dirname, './node_modules/react'),

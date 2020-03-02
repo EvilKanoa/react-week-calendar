@@ -1,4 +1,4 @@
-const { webpackConfig } = require('../webpack.config');
+const webpackConfig = require('../webpack.config');
 
 module.exports = {
   stories: ['../src/*.stories.js'],
@@ -8,9 +8,8 @@ module.exports = {
     '@storybook/addon-storysource',
     '@storybook/addon-viewport/register',
   ],
-  // webpackFinal: async sbWebpackConfig => ({
-  //   ...sbWebpackConfig,
-  //   module: { ...sbWebpackConfig.module, rules: webpackConfig.module.rules },
-  //   plugins: [...sbWebpackConfig.plugins, webpackConfig.plugins],
-  // }),
+  webpackFinal: async config => ({
+    ...config,
+    module: { ...config.module, rules: webpackConfig.module.rules },
+  }),
 };
