@@ -1,6 +1,6 @@
 {
   "name": "@evilkanoa/react-week-calendar",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Barebones and easy to use weekly calendar for any React page!",
   "main": "lib/ReactWeekCalendar.js",
   "private": false,
