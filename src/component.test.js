@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import ReactWeekCalendar from './ReactWeekCalendar';
+import ReactWeekCalendar from './component';
 
 describe('ReactWeekCalendar', () => {
   describe('render tests', () => {

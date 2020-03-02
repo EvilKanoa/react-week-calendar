@@ -2,8 +2,8 @@
 
 exports[`ReactWeekCalendar render tests renders with default props 1`] = `
 <ReactWeekCalendar>
-  <span
-    className="rmc-span"
+  <div
+    id=""
   />
 </ReactWeekCalendar>
 `;
