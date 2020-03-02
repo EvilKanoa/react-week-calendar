@@ -4,6 +4,13 @@ exports[`propTypes matches snapshot 1`] = `
 Object {
   "className": [Function],
   "dayCount": [Function],
+  "dayHeaderRenderer": [Function],
+  "displayedInterval": [Function],
+  "endMinutes": [Function],
   "id": [Function],
+  "minutePrecision": [Function],
+  "startMinutes": [Function],
+  "translateDay": [Function],
+  "weekStart": [Function],
 }
 `;

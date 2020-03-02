@@ -1,7 +1,42 @@
-.rmc-span {
-  color: purple;
+@import 'variables.scss';
 
-  * {
-    font-size: 200%;
+.ek-rwc-root {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: $rwc-size-time-header;
+  grid-template-rows: $rwc-size-day-header;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+
+  border: 1px solid $rwc-color-primary;
+
+  > .ek-rwc-header-day-container {
+    background: rgba($rwc-color-primary, 0.25);
+  }
+
+  > .ek-rwc-header-day {
+    > .ek-rwc-header-day-default {
+      margin: 0;
+    }
+  }
+
+  > .ek-rwc-grid-line-x {
+    border-top: 1px solid rgba($rwc-color-primary, 0.25);
+    z-index: -1;
+
+    &.first {
+      border-top: none;
+    }
+  }
+
+  > .ek-rwc-grid-line-y {
+    border-left: 1px solid rgba($rwc-color-primary, 0.25);
+    z-index: -1;
+
+    &.first {
+      border-left: none;
+    }
   }
 }

@@ -1,3 +1,32 @@
+import { CALENDAR_DAY } from './constants';
+
+/**
+ * Converts a calendar day enum to a user readable string (in English).
+ * Provides a sample implementation of the translation function for the ReactWeekCalendar component.
+ * @param {"monday"|"tuesday"|"wednesday"|"thursday"|"friday"|"saturday"|"sunday"} day The day in the format from CALENDAR_DAYS to be translated.
+ * @returns {String} The readable translation of the weekday or "Unknown".
+ */
+export const calendarDayToString = day => {
+  switch (day) {
+    case CALENDAR_DAY.MONDAY:
+      return 'Monday';
+    case CALENDAR_DAY.TUESDAY:
+      return 'Tuesday';
+    case CALENDAR_DAY.WEDNESDAY:
+      return 'Wednesday';
+    case CALENDAR_DAY.THURSDAY:
+      return 'Thursday';
+    case CALENDAR_DAY.FRIDAY:
+      return 'Friday';
+    case CALENDAR_DAY.SATURDAY:
+      return 'Saturday';
+    case CALENDAR_DAY.SUNDAY:
+      return 'Sunday';
+    default:
+      return 'Unknown';
+  }
+};
+
 /**
  * Computes a class name string for the given inputs.
  * Inputs can consist of:
@@ -35,6 +64,16 @@ export const classnames = (...classes) =>
     .trim()
     .replace(/\s+/gim, ' ');
 
+/** Provides a wrapper around the console logging methods to ensure all logs from ReactWeekCalendar will be consistent. */
+export const log = {
+  /** Wraps the `console.debug` function to inject a consistent ReactWeekCalendar tag. */
+  debug: (...args) => console.debug('ReactWeekCalendar[DEBUG]->', ...args),
+  /** Wraps the `console.warn` function to inject a consistent ReactWeekCalendar tag. */
+  warn: (...args) => console.warn('ReactWeekCalendar[WARN]->', ...args),
+  /** Wraps the `console.error` function to inject a consistent ReactWeekCalendar tag. */
+  error: (...args) => console.error('ReactWeekCalendar[ERROR]->', ...args),
+};
+
 /**
  * Merge multiple properties from multiple objects into a base object.
  * Respects priority of properties in the base object. That is, properties are only overwritten if they do not exist in the both object or one of the earlier source objects.
@@ -55,4 +94,51 @@ export const mergeShallow = (base = {}, ...sources) => {
   });
 
   return base;
+};
+
+/**
+ * Generates an array of numbers from start (inclusive) to end (exclusive) increasing by step for each entry.
+ * Start defaults to 0 and step defaults to 1 to allow quicker usage.
+ * @example
+ * range(3)
+ * -> [0, 1, 2]
+ *
+ * range(3, -2)
+ * -> [-2, -1, 0, 1, 2]
+ *
+ * range(10, 0, 2)
+ * -> [0, 2, 4, 6, 8]
+ *
+ * range(-2, 3, -1)
+ * -> [3, 2, 1, 0, -1]
+ * @param {Number} [end=0] Where to end the range, exclusive.
+ * @param {Number} [start=0] Where to start the range, inclusive. Defaults to 0.
+ * @param {Number} [step=1] How much to increase each entry in the range by. Defaults to 1.
+ */
+export const range = (end = 0, start = 0, step = 1) => {
+  const range = [];
+
+  if (end > start) {
+    if (step <= 0) {
+      throw new Error(
+        'Cannot generate an ascending range with a non-positive step value!'
+      );
+    }
+
+    for (let i = start; i < end; i += step) {
+      range.push(i);
+    }
+  } else if (end < start) {
+    if (step >= 0) {
+      throw new Error(
+        'Cannot generate a descending range with a non-negative step value!'
+      );
+    }
+
+    for (let i = start; i > end; i += step) {
+      range.push(i);
+    }
+  }
+
+  return range;
 };

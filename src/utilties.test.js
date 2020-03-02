@@ -1,6 +1,59 @@
 import * as utilities from './utilities';
+import * as constants from './constants';
 
 describe('utilities', () => {
+  describe('calendarDayToString', () => {
+    it('returns the correct string for monday', () => {
+      expect(
+        utilities.calendarDayToString(constants.CALENDAR_DAY.MONDAY)
+      ).toEqual('Monday');
+    });
+
+    it('returns the correct string for tuesday', () => {
+      expect(
+        utilities.calendarDayToString(constants.CALENDAR_DAY.TUESDAY)
+      ).toEqual('Tuesday');
+    });
+
+    it('returns the correct string for wednesday', () => {
+      expect(
+        utilities.calendarDayToString(constants.CALENDAR_DAY.WEDNESDAY)
+      ).toEqual('Wednesday');
+    });
+
+    it('returns the correct string for thursday', () => {
+      expect(
+        utilities.calendarDayToString(constants.CALENDAR_DAY.THURSDAY)
+      ).toEqual('Thursday');
+    });
+
+    it('returns the correct string for friday', () => {
+      expect(
+        utilities.calendarDayToString(constants.CALENDAR_DAY.FRIDAY)
+      ).toEqual('Friday');
+    });
+
+    it('returns the correct string for saturday', () => {
+      expect(
+        utilities.calendarDayToString(constants.CALENDAR_DAY.SATURDAY)
+      ).toEqual('Saturday');
+    });
+
+    it('returns the correct string for sunday', () => {
+      expect(
+        utilities.calendarDayToString(constants.CALENDAR_DAY.SUNDAY)
+      ).toEqual('Sunday');
+    });
+
+    it('returns unknown for unrecognized inputs', () => {
+      expect(utilities.calendarDayToString()).toEqual('Unknown');
+      expect(utilities.calendarDayToString(null)).toEqual('Unknown');
+      expect(utilities.calendarDayToString('?')).toEqual('Unknown');
+      expect(utilities.calendarDayToString('')).toEqual('Unknown');
+      expect(utilities.calendarDayToString({})).toEqual('Unknown');
+    });
+  });
+
   describe('classnames', () => {
     it('should combine string class names', () => {
       const names = ['one', 'two', 'three', 'four'];
@@ -135,6 +188,44 @@ describe('utilities', () => {
 
       expect(result).toBe(mockBase);
       expect(result).toEqual({ first: 'first', second: 'second' });
+    });
+  });
+
+  describe('range', () => {
+    it('should generate an empty range when nothing specified', () => {
+      expect(utilities.range()).toEqual([]);
+    });
+
+    it('should generate a range when only supplying the end', () => {
+      expect(utilities.range(0)).toEqual([]);
+      expect(utilities.range(1)).toEqual([0]);
+      expect(utilities.range(2)).toEqual([0, 1]);
+      expect(utilities.range(3)).toEqual([0, 1, 2]);
+    });
+
+    it('should generate a range when supplying the end and start', () => {
+      expect(utilities.range(2, 0)).toEqual([0, 1]);
+      expect(utilities.range(0, -1)).toEqual([-1]);
+      expect(utilities.range(3, -3)).toEqual([-3, -2, -1, 0, 1, 2]);
+    });
+
+    it('should generate a range when supplying the end, start, and step', () => {
+      expect(utilities.range(3, 0, 1)).toEqual([0, 1, 2]);
+      expect(utilities.range(2, 0, 0.5)).toEqual([0, 0.5, 1, 1.5]);
+      expect(utilities.range(2, -9, 2)).toEqual([-9, -7, -5, -3, -1, 1]);
+      expect(utilities.range(-9, 2, -2)).toEqual([2, 0, -2, -4, -6, -8]);
+    });
+
+    it('should throw an error if a positive step value is supplied for a descending range', () => {
+      expect(() => utilities.range(0, 10, 1)).toThrow();
+      expect(() => utilities.range(0, 1, 1)).toThrow();
+      expect(() => utilities.range(5, 10, 7)).toThrow();
+    });
+
+    it('should throw an error if a negative step value is supplied for an ascending range', () => {
+      expect(() => utilities.range(10, 0, -1)).toThrow();
+      expect(() => utilities.range(-5, -10, -2)).toThrow();
+      expect(() => utilities.range(1, 0, -0.1)).toThrow();
     });
   });
 });

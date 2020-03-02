@@ -3,7 +3,399 @@
 exports[`ReactWeekCalendar render tests renders with default props 1`] = `
 <ReactWeekCalendar>
   <div
+    className="ek-rwc-root"
     id=""
-  />
+  >
+    <GridDiv
+      cEnd={9}
+      cStart={1}
+      className="ek-rwc-header-day-container"
+      rEnd={2}
+      rStart={1}
+    >
+      <div
+        className="ek-rwc-header-day-container"
+        style={
+          Object {
+            "gridColumnEnd": 9,
+            "gridColumnStart": 1,
+            "gridRowEnd": 2,
+            "gridRowStart": 1,
+          }
+        }
+      />
+    </GridDiv>
+    <DayHeader
+      dayHeaderRenderer={[Function]}
+      dayIndex={0}
+      dayOffset={0}
+      key="monday-0"
+      lastGridRow={295}
+      translateDay={[Function]}
+    >
+      <GridDiv
+        cEnd={3}
+        cStart={2}
+        className="ek-rwc-header-day"
+        rEnd={2}
+        rStart={1}
+      >
+        <div
+          className="ek-rwc-header-day"
+          style={
+            Object {
+              "gridColumnEnd": 3,
+              "gridColumnStart": 2,
+              "gridRowEnd": 2,
+              "gridRowStart": 1,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-day-default"
+          >
+            Monday
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={3}
+        cStart={2}
+        className="ek-rwc-grid-line-y"
+        rEnd={295}
+        rStart={2}
+      >
+        <div
+          className="ek-rwc-grid-line-y"
+          style={
+            Object {
+              "gridColumnEnd": 3,
+              "gridColumnStart": 2,
+              "gridRowEnd": 295,
+              "gridRowStart": 2,
+            }
+          }
+        />
+      </GridDiv>
+    </DayHeader>
+    <DayHeader
+      dayHeaderRenderer={[Function]}
+      dayIndex={1}
+      dayOffset={0}
+      key="monday-1"
+      lastGridRow={295}
+      translateDay={[Function]}
+    >
+      <GridDiv
+        cEnd={4}
+        cStart={3}
+        className="ek-rwc-header-day"
+        rEnd={2}
+        rStart={1}
+      >
+        <div
+          className="ek-rwc-header-day"
+          style={
+            Object {
+              "gridColumnEnd": 4,
+              "gridColumnStart": 3,
+              "gridRowEnd": 2,
+              "gridRowStart": 1,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-day-default"
+          >
+            Tuesday
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={4}
+        cStart={3}
+        className="ek-rwc-grid-line-y"
+        rEnd={295}
+        rStart={2}
+      >
+        <div
+          className="ek-rwc-grid-line-y"
+          style={
+            Object {
+              "gridColumnEnd": 4,
+              "gridColumnStart": 3,
+              "gridRowEnd": 295,
+              "gridRowStart": 2,
+            }
+          }
+        />
+      </GridDiv>
+    </DayHeader>
+    <DayHeader
+      dayHeaderRenderer={[Function]}
+      dayIndex={2}
+      dayOffset={0}
+      key="monday-2"
+      lastGridRow={295}
+      translateDay={[Function]}
+    >
+      <GridDiv
+        cEnd={5}
+        cStart={4}
+        className="ek-rwc-header-day"
+        rEnd={2}
+        rStart={1}
+      >
+        <div
+          className="ek-rwc-header-day"
+          style={
+            Object {
+              "gridColumnEnd": 5,
+              "gridColumnStart": 4,
+              "gridRowEnd": 2,
+              "gridRowStart": 1,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-day-default"
+          >
+            Wednesday
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={5}
+        cStart={4}
+        className="ek-rwc-grid-line-y"
+        rEnd={295}
+        rStart={2}
+      >
+        <div
+          className="ek-rwc-grid-line-y"
+          style={
+            Object {
+              "gridColumnEnd": 5,
+              "gridColumnStart": 4,
+              "gridRowEnd": 295,
+              "gridRowStart": 2,
+            }
+          }
+        />
+      </GridDiv>
+    </DayHeader>
+    <DayHeader
+      dayHeaderRenderer={[Function]}
+      dayIndex={3}
+      dayOffset={0}
+      key="monday-3"
+      lastGridRow={295}
+      translateDay={[Function]}
+    >
+      <GridDiv
+        cEnd={6}
+        cStart={5}
+        className="ek-rwc-header-day"
+        rEnd={2}
+        rStart={1}
+      >
+        <div
+          className="ek-rwc-header-day"
+          style={
+            Object {
+              "gridColumnEnd": 6,
+              "gridColumnStart": 5,
+              "gridRowEnd": 2,
+              "gridRowStart": 1,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-day-default"
+          >
+            Thursday
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={6}
+        cStart={5}
+        className="ek-rwc-grid-line-y"
+        rEnd={295}
+        rStart={2}
+      >
+        <div
+          className="ek-rwc-grid-line-y"
+          style={
+            Object {
+              "gridColumnEnd": 6,
+              "gridColumnStart": 5,
+              "gridRowEnd": 295,
+              "gridRowStart": 2,
+            }
+          }
+        />
+      </GridDiv>
+    </DayHeader>
+    <DayHeader
+      dayHeaderRenderer={[Function]}
+      dayIndex={4}
+      dayOffset={0}
+      key="monday-4"
+      lastGridRow={295}
+      translateDay={[Function]}
+    >
+      <GridDiv
+        cEnd={7}
+        cStart={6}
+        className="ek-rwc-header-day"
+        rEnd={2}
+        rStart={1}
+      >
+        <div
+          className="ek-rwc-header-day"
+          style={
+            Object {
+              "gridColumnEnd": 7,
+              "gridColumnStart": 6,
+              "gridRowEnd": 2,
+              "gridRowStart": 1,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-day-default"
+          >
+            Friday
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={7}
+        cStart={6}
+        className="ek-rwc-grid-line-y"
+        rEnd={295}
+        rStart={2}
+      >
+        <div
+          className="ek-rwc-grid-line-y"
+          style={
+            Object {
+              "gridColumnEnd": 7,
+              "gridColumnStart": 6,
+              "gridRowEnd": 295,
+              "gridRowStart": 2,
+            }
+          }
+        />
+      </GridDiv>
+    </DayHeader>
+    <DayHeader
+      dayHeaderRenderer={[Function]}
+      dayIndex={5}
+      dayOffset={0}
+      key="monday-5"
+      lastGridRow={295}
+      translateDay={[Function]}
+    >
+      <GridDiv
+        cEnd={8}
+        cStart={7}
+        className="ek-rwc-header-day"
+        rEnd={2}
+        rStart={1}
+      >
+        <div
+          className="ek-rwc-header-day"
+          style={
+            Object {
+              "gridColumnEnd": 8,
+              "gridColumnStart": 7,
+              "gridRowEnd": 2,
+              "gridRowStart": 1,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-day-default"
+          >
+            Saturday
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={8}
+        cStart={7}
+        className="ek-rwc-grid-line-y"
+        rEnd={295}
+        rStart={2}
+      >
+        <div
+          className="ek-rwc-grid-line-y"
+          style={
+            Object {
+              "gridColumnEnd": 8,
+              "gridColumnStart": 7,
+              "gridRowEnd": 295,
+              "gridRowStart": 2,
+            }
+          }
+        />
+      </GridDiv>
+    </DayHeader>
+    <DayHeader
+      dayHeaderRenderer={[Function]}
+      dayIndex={6}
+      dayOffset={0}
+      key="monday-6"
+      lastGridRow={295}
+      translateDay={[Function]}
+    >
+      <GridDiv
+        cEnd={9}
+        cStart={8}
+        className="ek-rwc-header-day"
+        rEnd={2}
+        rStart={1}
+      >
+        <div
+          className="ek-rwc-header-day"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 8,
+              "gridRowEnd": 2,
+              "gridRowStart": 1,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-day-default"
+          >
+            Sunday
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={8}
+        className="ek-rwc-grid-line-y"
+        rEnd={295}
+        rStart={2}
+      >
+        <div
+          className="ek-rwc-grid-line-y"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 8,
+              "gridRowEnd": 295,
+              "gridRowStart": 2,
+            }
+          }
+        />
+      </GridDiv>
+    </DayHeader>
+  </div>
 </ReactWeekCalendar>
 `;
