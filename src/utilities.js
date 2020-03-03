@@ -97,25 +97,58 @@ export const mergeShallow = (base = {}, ...sources) => {
 };
 
 /**
+ * Converts a integer representing total minutes since midnight to a human readable timestamp.
+ * Uses basic algebra to perform the conversion and some simple string operations.
+ * @param {Number} minutes The number of minutes elapsed since the start of the day.
+ * @returns {String} The readable timestamp given the minutes elapsed.
+ */
+export const minutesToTimestampString = minutes => {
+  if (typeof minutes !== 'number' || isNaN(minutes)) {
+    return '00:00am';
+  }
+
+  const hours = minutes / 60;
+  const hourStr = `${Math.floor(hours) - (hours < 13 ? 0 : 12)}`.padStart(
+    2,
+    '0'
+  );
+  const minuteStr = `${minutes % 60}`.padStart(2, '0');
+
+  return `${hourStr}:${minuteStr}${hours < 12 ? 'am' : 'pm'}`;
+};
+
+/**
  * Generates an array of numbers from start (inclusive) to end (exclusive) increasing by step for each entry.
  * Start defaults to 0 and step defaults to 1 to allow quicker usage.
+ * When only passed one argument, will treat it as the end value with a start of 0, otherwise, expects arguments in start, end, step order.
  * @example
  * range(3)
  * -> [0, 1, 2]
  *
- * range(3, -2)
+ * range(-2, 3)
  * -> [-2, -1, 0, 1, 2]
  *
- * range(10, 0, 2)
+ * range(0, 10, 2)
  * -> [0, 2, 4, 6, 8]
  *
- * range(-2, 3, -1)
+ * range(3, -2, -1)
  * -> [3, 2, 1, 0, -1]
- * @param {Number} [end=0] Where to end the range, exclusive.
- * @param {Number} [start=0] Where to start the range, inclusive. Defaults to 0.
+ * @param {Number} [startOrEnd=0] If not providing other arguments, acts as the end value, the value (exclusive) where the range ends. Otherwise, when proving an end value as well as this value, will act as the value (inclusive) where the range begins.
+ * @param {Number} [optionalEnd] Where to end the range, when specifying the start value. This is an exclusive end value.
  * @param {Number} [step=1] How much to increase each entry in the range by. Defaults to 1.
+ * @returns {Array<Number>} The range list generated, contains each entry of the range from start (inclusive) to end (exclusive) with an interval of step.
+ * @throws Error thrown if an incorrect step value is provided based upon the start and end values.
  */
-export const range = (end = 0, start = 0, step = 1) => {
+export const range = (startOrEnd = 0, optionalEnd, step = 1) => {
+  let start, end;
+  if (optionalEnd != null) {
+    start = startOrEnd;
+    end = optionalEnd;
+  } else {
+    start = 0;
+    end = startOrEnd;
+  }
+
   const range = [];
 
   if (end > start) {

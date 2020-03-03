@@ -10,7 +10,9 @@ Object {
   "id": [Function],
   "minutePrecision": [Function],
   "startMinutes": [Function],
+  "timeHeaderRenderer": [Function],
   "translateDay": [Function],
+  "translateTime": [Function],
   "weekStart": [Function],
 }
 `;

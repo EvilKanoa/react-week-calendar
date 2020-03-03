@@ -29,19 +29,20 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
       dayHeaderRenderer={[Function]}
       dayIndex={0}
       dayOffset={0}
+      isFirst={true}
       key="monday-0"
-      lastGridRow={295}
+      lastGridRow={290}
       translateDay={[Function]}
     >
       <GridDiv
         cEnd={3}
         cStart={2}
-        className="ek-rwc-header-day"
+        className="ek-rwc-header ek-rwc-header-day first"
         rEnd={2}
         rStart={1}
       >
         <div
-          className="ek-rwc-header-day"
+          className="ek-rwc-header ek-rwc-header-day first"
           style={
             Object {
               "gridColumnEnd": 3,
@@ -61,17 +62,17 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
       <GridDiv
         cEnd={3}
         cStart={2}
-        className="ek-rwc-grid-line-y"
-        rEnd={295}
+        className="ek-rwc-grid-line-y first"
+        rEnd={290}
         rStart={2}
       >
         <div
-          className="ek-rwc-grid-line-y"
+          className="ek-rwc-grid-line-y first"
           style={
             Object {
               "gridColumnEnd": 3,
               "gridColumnStart": 2,
-              "gridRowEnd": 295,
+              "gridRowEnd": 290,
               "gridRowStart": 2,
             }
           }
@@ -82,19 +83,20 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
       dayHeaderRenderer={[Function]}
       dayIndex={1}
       dayOffset={0}
+      isFirst={false}
       key="monday-1"
-      lastGridRow={295}
+      lastGridRow={290}
       translateDay={[Function]}
     >
       <GridDiv
         cEnd={4}
         cStart={3}
-        className="ek-rwc-header-day"
+        className="ek-rwc-header ek-rwc-header-day"
         rEnd={2}
         rStart={1}
       >
         <div
-          className="ek-rwc-header-day"
+          className="ek-rwc-header ek-rwc-header-day"
           style={
             Object {
               "gridColumnEnd": 4,
@@ -115,7 +117,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
         cEnd={4}
         cStart={3}
         className="ek-rwc-grid-line-y"
-        rEnd={295}
+        rEnd={290}
         rStart={2}
       >
         <div
@@ -124,7 +126,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
             Object {
               "gridColumnEnd": 4,
               "gridColumnStart": 3,
-              "gridRowEnd": 295,
+              "gridRowEnd": 290,
               "gridRowStart": 2,
             }
           }
@@ -135,19 +137,20 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
       dayHeaderRenderer={[Function]}
       dayIndex={2}
       dayOffset={0}
+      isFirst={false}
       key="monday-2"
-      lastGridRow={295}
+      lastGridRow={290}
       translateDay={[Function]}
     >
       <GridDiv
         cEnd={5}
         cStart={4}
-        className="ek-rwc-header-day"
+        className="ek-rwc-header ek-rwc-header-day"
         rEnd={2}
         rStart={1}
       >
         <div
-          className="ek-rwc-header-day"
+          className="ek-rwc-header ek-rwc-header-day"
           style={
             Object {
               "gridColumnEnd": 5,
@@ -168,7 +171,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
         cEnd={5}
         cStart={4}
         className="ek-rwc-grid-line-y"
-        rEnd={295}
+        rEnd={290}
         rStart={2}
       >
         <div
@@ -177,7 +180,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
             Object {
               "gridColumnEnd": 5,
               "gridColumnStart": 4,
-              "gridRowEnd": 295,
+              "gridRowEnd": 290,
               "gridRowStart": 2,
             }
           }
@@ -188,19 +191,20 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
       dayHeaderRenderer={[Function]}
       dayIndex={3}
       dayOffset={0}
+      isFirst={false}
       key="monday-3"
-      lastGridRow={295}
+      lastGridRow={290}
       translateDay={[Function]}
     >
       <GridDiv
         cEnd={6}
         cStart={5}
-        className="ek-rwc-header-day"
+        className="ek-rwc-header ek-rwc-header-day"
         rEnd={2}
         rStart={1}
       >
         <div
-          className="ek-rwc-header-day"
+          className="ek-rwc-header ek-rwc-header-day"
           style={
             Object {
               "gridColumnEnd": 6,
@@ -221,7 +225,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
         cEnd={6}
         cStart={5}
         className="ek-rwc-grid-line-y"
-        rEnd={295}
+        rEnd={290}
         rStart={2}
       >
         <div
@@ -230,7 +234,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
             Object {
               "gridColumnEnd": 6,
               "gridColumnStart": 5,
-              "gridRowEnd": 295,
+              "gridRowEnd": 290,
               "gridRowStart": 2,
             }
           }
@@ -241,19 +245,20 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
       dayHeaderRenderer={[Function]}
       dayIndex={4}
       dayOffset={0}
+      isFirst={false}
       key="monday-4"
-      lastGridRow={295}
+      lastGridRow={290}
       translateDay={[Function]}
     >
       <GridDiv
         cEnd={7}
         cStart={6}
-        className="ek-rwc-header-day"
+        className="ek-rwc-header ek-rwc-header-day"
         rEnd={2}
         rStart={1}
       >
         <div
-          className="ek-rwc-header-day"
+          className="ek-rwc-header ek-rwc-header-day"
           style={
             Object {
               "gridColumnEnd": 7,
@@ -274,7 +279,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
         cEnd={7}
         cStart={6}
         className="ek-rwc-grid-line-y"
-        rEnd={295}
+        rEnd={290}
         rStart={2}
       >
         <div
@@ -283,7 +288,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
             Object {
               "gridColumnEnd": 7,
               "gridColumnStart": 6,
-              "gridRowEnd": 295,
+              "gridRowEnd": 290,
               "gridRowStart": 2,
             }
           }
@@ -294,19 +299,20 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
       dayHeaderRenderer={[Function]}
       dayIndex={5}
       dayOffset={0}
+      isFirst={false}
       key="monday-5"
-      lastGridRow={295}
+      lastGridRow={290}
       translateDay={[Function]}
     >
       <GridDiv
         cEnd={8}
         cStart={7}
-        className="ek-rwc-header-day"
+        className="ek-rwc-header ek-rwc-header-day"
         rEnd={2}
         rStart={1}
       >
         <div
-          className="ek-rwc-header-day"
+          className="ek-rwc-header ek-rwc-header-day"
           style={
             Object {
               "gridColumnEnd": 8,
@@ -327,7 +333,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
         cEnd={8}
         cStart={7}
         className="ek-rwc-grid-line-y"
-        rEnd={295}
+        rEnd={290}
         rStart={2}
       >
         <div
@@ -336,7 +342,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
             Object {
               "gridColumnEnd": 8,
               "gridColumnStart": 7,
-              "gridRowEnd": 295,
+              "gridRowEnd": 290,
               "gridRowStart": 2,
             }
           }
@@ -347,19 +353,20 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
       dayHeaderRenderer={[Function]}
       dayIndex={6}
       dayOffset={0}
+      isFirst={false}
       key="monday-6"
-      lastGridRow={295}
+      lastGridRow={290}
       translateDay={[Function]}
     >
       <GridDiv
         cEnd={9}
         cStart={8}
-        className="ek-rwc-header-day"
+        className="ek-rwc-header ek-rwc-header-day"
         rEnd={2}
         rStart={1}
       >
         <div
-          className="ek-rwc-header-day"
+          className="ek-rwc-header ek-rwc-header-day"
           style={
             Object {
               "gridColumnEnd": 9,
@@ -380,7 +387,7 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
         cEnd={9}
         cStart={8}
         className="ek-rwc-grid-line-y"
-        rEnd={295}
+        rEnd={290}
         rStart={2}
       >
         <div
@@ -389,13 +396,2672 @@ exports[`ReactWeekCalendar render tests renders with default props 1`] = `
             Object {
               "gridColumnEnd": 9,
               "gridColumnStart": 8,
-              "gridRowEnd": 295,
+              "gridRowEnd": 290,
               "gridRowStart": 2,
             }
           }
         />
       </GridDiv>
     </DayHeader>
+    <GridDiv
+      cEnd={2}
+      cStart={1}
+      className="ek-rwc-header-time-container"
+      rEnd={290}
+      rStart={1}
+    >
+      <div
+        className="ek-rwc-header-time-container"
+        style={
+          Object {
+            "gridColumnEnd": 2,
+            "gridColumnStart": 1,
+            "gridRowEnd": 290,
+            "gridRowStart": 1,
+          }
+        }
+      />
+    </GridDiv>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={8}
+      gridRowStart={2}
+      isFirst={true}
+      key="0"
+      minutes={0}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time first"
+        rEnd={8}
+        rStart={2}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time first"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 8,
+              "gridRowStart": 2,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            00:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x first"
+        rEnd={8}
+        rStart={2}
+      >
+        <div
+          className="ek-rwc-grid-line-x first"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 8,
+              "gridRowStart": 2,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={14}
+      gridRowStart={8}
+      isFirst={false}
+      key="30"
+      minutes={30}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={14}
+        rStart={8}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 14,
+              "gridRowStart": 8,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            00:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={14}
+        rStart={8}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 14,
+              "gridRowStart": 8,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={20}
+      gridRowStart={14}
+      isFirst={false}
+      key="60"
+      minutes={60}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={20}
+        rStart={14}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 20,
+              "gridRowStart": 14,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            01:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={20}
+        rStart={14}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 20,
+              "gridRowStart": 14,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={26}
+      gridRowStart={20}
+      isFirst={false}
+      key="90"
+      minutes={90}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={26}
+        rStart={20}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 26,
+              "gridRowStart": 20,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            01:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={26}
+        rStart={20}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 26,
+              "gridRowStart": 20,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={32}
+      gridRowStart={26}
+      isFirst={false}
+      key="120"
+      minutes={120}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={32}
+        rStart={26}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 32,
+              "gridRowStart": 26,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            02:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={32}
+        rStart={26}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 32,
+              "gridRowStart": 26,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={38}
+      gridRowStart={32}
+      isFirst={false}
+      key="150"
+      minutes={150}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={38}
+        rStart={32}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 38,
+              "gridRowStart": 32,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            02:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={38}
+        rStart={32}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 38,
+              "gridRowStart": 32,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={44}
+      gridRowStart={38}
+      isFirst={false}
+      key="180"
+      minutes={180}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={44}
+        rStart={38}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 44,
+              "gridRowStart": 38,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            03:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={44}
+        rStart={38}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 44,
+              "gridRowStart": 38,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={50}
+      gridRowStart={44}
+      isFirst={false}
+      key="210"
+      minutes={210}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={50}
+        rStart={44}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 50,
+              "gridRowStart": 44,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            03:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={50}
+        rStart={44}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 50,
+              "gridRowStart": 44,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={56}
+      gridRowStart={50}
+      isFirst={false}
+      key="240"
+      minutes={240}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={56}
+        rStart={50}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 56,
+              "gridRowStart": 50,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            04:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={56}
+        rStart={50}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 56,
+              "gridRowStart": 50,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={62}
+      gridRowStart={56}
+      isFirst={false}
+      key="270"
+      minutes={270}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={62}
+        rStart={56}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 62,
+              "gridRowStart": 56,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            04:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={62}
+        rStart={56}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 62,
+              "gridRowStart": 56,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={68}
+      gridRowStart={62}
+      isFirst={false}
+      key="300"
+      minutes={300}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={68}
+        rStart={62}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 68,
+              "gridRowStart": 62,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            05:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={68}
+        rStart={62}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 68,
+              "gridRowStart": 62,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={74}
+      gridRowStart={68}
+      isFirst={false}
+      key="330"
+      minutes={330}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={74}
+        rStart={68}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 74,
+              "gridRowStart": 68,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            05:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={74}
+        rStart={68}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 74,
+              "gridRowStart": 68,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={80}
+      gridRowStart={74}
+      isFirst={false}
+      key="360"
+      minutes={360}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={80}
+        rStart={74}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 80,
+              "gridRowStart": 74,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            06:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={80}
+        rStart={74}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 80,
+              "gridRowStart": 74,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={86}
+      gridRowStart={80}
+      isFirst={false}
+      key="390"
+      minutes={390}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={86}
+        rStart={80}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 86,
+              "gridRowStart": 80,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            06:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={86}
+        rStart={80}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 86,
+              "gridRowStart": 80,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={92}
+      gridRowStart={86}
+      isFirst={false}
+      key="420"
+      minutes={420}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={92}
+        rStart={86}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 92,
+              "gridRowStart": 86,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            07:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={92}
+        rStart={86}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 92,
+              "gridRowStart": 86,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={98}
+      gridRowStart={92}
+      isFirst={false}
+      key="450"
+      minutes={450}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={98}
+        rStart={92}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 98,
+              "gridRowStart": 92,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            07:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={98}
+        rStart={92}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 98,
+              "gridRowStart": 92,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={104}
+      gridRowStart={98}
+      isFirst={false}
+      key="480"
+      minutes={480}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={104}
+        rStart={98}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 104,
+              "gridRowStart": 98,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            08:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={104}
+        rStart={98}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 104,
+              "gridRowStart": 98,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={110}
+      gridRowStart={104}
+      isFirst={false}
+      key="510"
+      minutes={510}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={110}
+        rStart={104}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 110,
+              "gridRowStart": 104,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            08:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={110}
+        rStart={104}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 110,
+              "gridRowStart": 104,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={116}
+      gridRowStart={110}
+      isFirst={false}
+      key="540"
+      minutes={540}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={116}
+        rStart={110}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 116,
+              "gridRowStart": 110,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            09:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={116}
+        rStart={110}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 116,
+              "gridRowStart": 110,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={122}
+      gridRowStart={116}
+      isFirst={false}
+      key="570"
+      minutes={570}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={122}
+        rStart={116}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 122,
+              "gridRowStart": 116,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            09:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={122}
+        rStart={116}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 122,
+              "gridRowStart": 116,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={128}
+      gridRowStart={122}
+      isFirst={false}
+      key="600"
+      minutes={600}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={128}
+        rStart={122}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 128,
+              "gridRowStart": 122,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            10:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={128}
+        rStart={122}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 128,
+              "gridRowStart": 122,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={134}
+      gridRowStart={128}
+      isFirst={false}
+      key="630"
+      minutes={630}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={134}
+        rStart={128}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 134,
+              "gridRowStart": 128,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            10:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={134}
+        rStart={128}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 134,
+              "gridRowStart": 128,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={140}
+      gridRowStart={134}
+      isFirst={false}
+      key="660"
+      minutes={660}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={140}
+        rStart={134}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 140,
+              "gridRowStart": 134,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            11:00am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={140}
+        rStart={134}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 140,
+              "gridRowStart": 134,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={146}
+      gridRowStart={140}
+      isFirst={false}
+      key="690"
+      minutes={690}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={146}
+        rStart={140}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 146,
+              "gridRowStart": 140,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            11:30am
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={146}
+        rStart={140}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 146,
+              "gridRowStart": 140,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={152}
+      gridRowStart={146}
+      isFirst={false}
+      key="720"
+      minutes={720}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={152}
+        rStart={146}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 152,
+              "gridRowStart": 146,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            12:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={152}
+        rStart={146}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 152,
+              "gridRowStart": 146,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={158}
+      gridRowStart={152}
+      isFirst={false}
+      key="750"
+      minutes={750}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={158}
+        rStart={152}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 158,
+              "gridRowStart": 152,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            12:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={158}
+        rStart={152}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 158,
+              "gridRowStart": 152,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={164}
+      gridRowStart={158}
+      isFirst={false}
+      key="780"
+      minutes={780}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={164}
+        rStart={158}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 164,
+              "gridRowStart": 158,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            01:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={164}
+        rStart={158}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 164,
+              "gridRowStart": 158,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={170}
+      gridRowStart={164}
+      isFirst={false}
+      key="810"
+      minutes={810}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={170}
+        rStart={164}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 170,
+              "gridRowStart": 164,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            01:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={170}
+        rStart={164}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 170,
+              "gridRowStart": 164,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={176}
+      gridRowStart={170}
+      isFirst={false}
+      key="840"
+      minutes={840}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={176}
+        rStart={170}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 176,
+              "gridRowStart": 170,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            02:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={176}
+        rStart={170}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 176,
+              "gridRowStart": 170,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={182}
+      gridRowStart={176}
+      isFirst={false}
+      key="870"
+      minutes={870}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={182}
+        rStart={176}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 182,
+              "gridRowStart": 176,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            02:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={182}
+        rStart={176}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 182,
+              "gridRowStart": 176,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={188}
+      gridRowStart={182}
+      isFirst={false}
+      key="900"
+      minutes={900}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={188}
+        rStart={182}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 188,
+              "gridRowStart": 182,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            03:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={188}
+        rStart={182}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 188,
+              "gridRowStart": 182,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={194}
+      gridRowStart={188}
+      isFirst={false}
+      key="930"
+      minutes={930}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={194}
+        rStart={188}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 194,
+              "gridRowStart": 188,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            03:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={194}
+        rStart={188}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 194,
+              "gridRowStart": 188,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={200}
+      gridRowStart={194}
+      isFirst={false}
+      key="960"
+      minutes={960}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={200}
+        rStart={194}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 200,
+              "gridRowStart": 194,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            04:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={200}
+        rStart={194}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 200,
+              "gridRowStart": 194,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={206}
+      gridRowStart={200}
+      isFirst={false}
+      key="990"
+      minutes={990}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={206}
+        rStart={200}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 206,
+              "gridRowStart": 200,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            04:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={206}
+        rStart={200}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 206,
+              "gridRowStart": 200,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={212}
+      gridRowStart={206}
+      isFirst={false}
+      key="1020"
+      minutes={1020}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={212}
+        rStart={206}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 212,
+              "gridRowStart": 206,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            05:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={212}
+        rStart={206}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 212,
+              "gridRowStart": 206,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={218}
+      gridRowStart={212}
+      isFirst={false}
+      key="1050"
+      minutes={1050}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={218}
+        rStart={212}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 218,
+              "gridRowStart": 212,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            05:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={218}
+        rStart={212}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 218,
+              "gridRowStart": 212,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={224}
+      gridRowStart={218}
+      isFirst={false}
+      key="1080"
+      minutes={1080}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={224}
+        rStart={218}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 224,
+              "gridRowStart": 218,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            06:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={224}
+        rStart={218}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 224,
+              "gridRowStart": 218,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={230}
+      gridRowStart={224}
+      isFirst={false}
+      key="1110"
+      minutes={1110}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={230}
+        rStart={224}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 230,
+              "gridRowStart": 224,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            06:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={230}
+        rStart={224}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 230,
+              "gridRowStart": 224,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={236}
+      gridRowStart={230}
+      isFirst={false}
+      key="1140"
+      minutes={1140}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={236}
+        rStart={230}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 236,
+              "gridRowStart": 230,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            07:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={236}
+        rStart={230}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 236,
+              "gridRowStart": 230,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={242}
+      gridRowStart={236}
+      isFirst={false}
+      key="1170"
+      minutes={1170}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={242}
+        rStart={236}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 242,
+              "gridRowStart": 236,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            07:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={242}
+        rStart={236}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 242,
+              "gridRowStart": 236,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={248}
+      gridRowStart={242}
+      isFirst={false}
+      key="1200"
+      minutes={1200}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={248}
+        rStart={242}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 248,
+              "gridRowStart": 242,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            08:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={248}
+        rStart={242}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 248,
+              "gridRowStart": 242,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={254}
+      gridRowStart={248}
+      isFirst={false}
+      key="1230"
+      minutes={1230}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={254}
+        rStart={248}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 254,
+              "gridRowStart": 248,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            08:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={254}
+        rStart={248}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 254,
+              "gridRowStart": 248,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={260}
+      gridRowStart={254}
+      isFirst={false}
+      key="1260"
+      minutes={1260}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={260}
+        rStart={254}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 260,
+              "gridRowStart": 254,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            09:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={260}
+        rStart={254}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 260,
+              "gridRowStart": 254,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={266}
+      gridRowStart={260}
+      isFirst={false}
+      key="1290"
+      minutes={1290}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={266}
+        rStart={260}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 266,
+              "gridRowStart": 260,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            09:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={266}
+        rStart={260}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 266,
+              "gridRowStart": 260,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={272}
+      gridRowStart={266}
+      isFirst={false}
+      key="1320"
+      minutes={1320}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={272}
+        rStart={266}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 272,
+              "gridRowStart": 266,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            10:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={272}
+        rStart={266}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 272,
+              "gridRowStart": 266,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={278}
+      gridRowStart={272}
+      isFirst={false}
+      key="1350"
+      minutes={1350}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={278}
+        rStart={272}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 278,
+              "gridRowStart": 272,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            10:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={278}
+        rStart={272}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 278,
+              "gridRowStart": 272,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={284}
+      gridRowStart={278}
+      isFirst={false}
+      key="1380"
+      minutes={1380}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={284}
+        rStart={278}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 284,
+              "gridRowStart": 278,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            11:00pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={284}
+        rStart={278}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 284,
+              "gridRowStart": 278,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
+    <TimeHeader
+      dayCount={7}
+      gridRowEnd={290}
+      gridRowStart={284}
+      isFirst={false}
+      key="1410"
+      minutes={1410}
+      timeHeaderRenderer={[Function]}
+      translateTime={[Function]}
+    >
+      <GridDiv
+        cEnd={2}
+        cStart={1}
+        className="ek-rwc-header ek-rwc-header-time"
+        rEnd={290}
+        rStart={284}
+      >
+        <div
+          className="ek-rwc-header ek-rwc-header-time"
+          style={
+            Object {
+              "gridColumnEnd": 2,
+              "gridColumnStart": 1,
+              "gridRowEnd": 290,
+              "gridRowStart": 284,
+            }
+          }
+        >
+          <p
+            className="ek-rwc-header-time-default"
+          >
+            11:30pm
+          </p>
+        </div>
+      </GridDiv>
+      <GridDiv
+        cEnd={9}
+        cStart={2}
+        className="ek-rwc-grid-line-x"
+        rEnd={290}
+        rStart={284}
+      >
+        <div
+          className="ek-rwc-grid-line-x"
+          style={
+            Object {
+              "gridColumnEnd": 9,
+              "gridColumnStart": 2,
+              "gridRowEnd": 290,
+              "gridRowStart": 284,
+            }
+          }
+        />
+      </GridDiv>
+    </TimeHeader>
   </div>
 </ReactWeekCalendar>
 `;

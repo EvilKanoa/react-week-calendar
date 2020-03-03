@@ -24,6 +24,10 @@ export default {
   weekStart: PropTypes.oneOf(Object.values(CALENDAR_DAY)),
   /** Translation function to convert from a CALENDAR_DAYS enum to a readable string. Default translator returns string in English. */
   translateDay: PropTypes.func,
+  /** Translation function to convert from an absolute number of minutes to a readable timestamp string. Default translator returns a 12-hour timestamp. */
+  translateTime: PropTypes.func,
   /** Render function that is called for each day header (the cell that says, eg, "Monday"). Passed the day as a CALENDAR_DAY as well as the translateDay function. Defaults to a renderer which returns a centered <p> with the translated day as text. */
   dayHeaderRenderer: PropTypes.func,
+  /** Render function that is called for each time header (the cell that says, eg, "8:30am"). Passed the elapsed minutes of the header as a number as well as the translateTime function. Defaults to a renderer which returns a centered <p> with the translated time as text. */
+  timeHeaderRenderer: PropTypes.func,
 };

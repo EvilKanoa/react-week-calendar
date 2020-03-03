@@ -1,5 +1,5 @@
 // import all pieces of the component that are used in the built lib
-import ReactWeekCalendar from './component';
+import ReactWeekCalendar from './component.jsx';
 import * as constants from './constants';
 import * as utilities from './utilities';
 import propTypes from './propTypes';
